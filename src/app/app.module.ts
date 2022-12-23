@@ -11,11 +11,21 @@ import { PageStudentListComponent } from './pages/page-student-list/page-student
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DataTablesModule } from 'angular-datatables';
+import { CardPlanComponent } from './pages/components/card-plan/card-plan.component';
+import { CardTodoComponent } from './pages/components/card-todo/card-todo.component';
+import { CardDoneComponent } from './pages/components/card-done/card-done.component';
+import { SanlloNavbarComponent } from './pages/components/sanllo-navbar/sanllo-navbar.component';
+import { PageSanlloComponent } from './pages/page-sanllo/page-sanllo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageStudentListComponent
+    PageStudentListComponent,
+    CardPlanComponent,
+    CardTodoComponent,
+    CardDoneComponent,
+    SanlloNavbarComponent,
+    PageSanlloComponent
   ],
   imports: [
     BrowserModule,
